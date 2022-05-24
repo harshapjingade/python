@@ -1,0 +1,12 @@
+#Print even numbers in a given range
+
+def startswith(start,n):
+  even_numbers=[]
+  i=0
+  while(i<n): 
+    if start % 2 == 0:
+      even_numbers.append(start)
+      i+=1
+    start+=1
+  return even_numbers
+print(startswith(5,7))

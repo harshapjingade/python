@@ -1,0 +1,8 @@
+# Printing week number as per given date
+
+import datetime
+year=int(input("enter the year:"))
+month=int(input("enter the month:"))
+day=int(input("enter the day:"))
+
+print(datetime.date(year,month,day).isocalendar()[1])
